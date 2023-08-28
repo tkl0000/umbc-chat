@@ -3,4 +3,4 @@ hugchat==0.0.8
 langchain
 openai
 chromadb
-pysqlite3-binary
+pysqlite3
