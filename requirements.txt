@@ -4,3 +4,4 @@ langchain
 openai
 chromadb
 pysqlite3
+tiktoken
