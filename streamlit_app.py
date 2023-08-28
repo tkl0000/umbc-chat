@@ -13,6 +13,11 @@ from langchain.agents.agent_toolkits import (
     VectorStoreInfo,
 )
 
+#sqlite version fix
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 agent_executor = ""
 api_key = ""
 
